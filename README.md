@@ -17,6 +17,6 @@ jangan lupa tambahkan hasil screenshoot web di dalam file
 
 ### Tambahkan identitas dasar di sini: 
 
-Nama  :
+Nama  : Stephanie Helen Parida Napitupulu
 <br>
-NIM   :
+NIM   :119140070
