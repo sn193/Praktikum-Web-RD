@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pertemuan 3</title>
+    <script src="ste.js"></script> 
+</head>
+
+<body id="body">
+    <label for="color"> Select theme : </label>
+    <select name="color" id="color" onchange="theme()">
+
+        <option value="white"> White </option>
+        <option value="black"> Black </option>
+
+    </select>
+
+    <h1> This is my website </h1>
+
+    <label for="weather"> Select the weather type today </label>
+    <select name="weather" id="weather" onchange="weather()">
+        <option value="" selected disabled hidden> -- Choose -- </option>
+        <option value="Sunny"> Sunny </option>
+        <option value="Rainy"> Rainy </option>
+    </select>
+    <p id="word"></p>
+
+    <label for="factorial"> Input number  : </label>
+    <input type="number" name="factorial" id="factorial">
+    <button type="submit" onclick="factorial()"> Get Factorial </button>
+
+    <p id="result"></p>
+</body>
+</html>
